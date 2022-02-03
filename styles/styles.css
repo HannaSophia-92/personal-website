@@ -8,7 +8,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  font-weight: regular;
   color: #565a5b;
 }
 
@@ -17,13 +16,13 @@ header {
   margin: 0 0 5px 0;
 }
 
+h2 {
+  font-size: 1.6rem;
+}
+
 a:hover {
   cursor: pointer;
   color: #4a707a;
-}
-
-section {
-  margin: 15px;
 }
 
 /*Bild mittig zentrieren*/
@@ -60,4 +59,61 @@ figure {
 .profil-img {
   width: 250px;
   border-radius: 5%;
+}
+
+#aboutme {
+  background-color: #c6d4db;
+  margin: 5px 0;
+  padding: 15px;
+}
+
+.link-neuefische {
+  text-decoration: none;
+  color: #4a707a;
+}
+
+.social-media {
+  background-color: #c6d4db;
+  margin: 5px 0;
+  height: 300px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmedia-header {
+  text-align: left;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #4a707a;
+}
+
+#contact {
+  background-color: #c6d4db;
+  margin: auto;
+  padding: 15px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.link-contact {
+  text-decoration: none;
+  color: #4a707a;
+  padding-right: 15px;
+}
+
+.footer-section {
+  background-color: #c6d4db;
+  margin: auto;
+  padding: 15px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-end;
 }
