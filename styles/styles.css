@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #565a5b;
+}
+
+header {
+  padding: 15px;
+  margin: 0 0 5px 0;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #4a707a;
+}
+
+section {
+  margin: 15px;
+}
+
+/*Bild mittig zentrieren*/
+figure {
+  text-align: center;
+  padding: 55px;
+}
+
+.header-section {
+  background-color: #b5c3cb;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button-link {
+  text-decoration: none;
+  color: #565a5b;
+  background-color: #c6d4db;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.img-section {
+  background-color: #c6d4db;
+  margin: auto;
+}
+
+.profil-img {
+  width: 250px;
+  border-radius: 5%;
+}
