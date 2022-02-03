@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Hanna Sophia</title>
   </head>
   <body>
-    <header>
+    <header class="header-section">
       <h1>Nice to meet you</h1>
       <h2>I'm Hanna</h2>
-      <nav>
-        <a href="#contact">Contact</a>
-        <a href="#aboutme">About me</a>
+      <nav class="nav">
+        <a class="button-link" href="#aboutme">About me</a>
+        <a class="button-link" href="#contact">Contact</a>
       </nav>
     </header>
     <main>
-      <figure>
-        <img src="images/hannasophia.jpg" alt="Picture of myself" />
-        <figcaption>Hanna Sophia Schlenker</figcaption>
+      <figure class="img-section">
+        <img
+          class="profil-img"
+          src="images/hannasophia.jpg"
+          alt="Picture of myself"
+        />
+        <figcaption>That's me</figcaption>
       </figure>
+
       <section id="aboutme">
         <h2>About me</h2>
         <h3>My ways to relax</h3>
@@ -27,20 +33,21 @@
           <li>sports like swimming, mountain biking and running</li>
           <li>spending time with family and friends</li>
           <li>cooking</li>
-          <li>traveling</li>
+          <li>travelling</li>
         </ul>
-      </section>
-      <section>
+
         <h3>What I'm doing at the moment</h3>
         <p>
           Currently I'm learning to code at
-          <a href="https://www.neuefische.de/en">neuefische</a> coding bootcamp.
-          What I like about coding is bringing ideas to life, being creative and
-          envolving constantly. I'm looking forward working as a web developer
-          and being able to connect the world in a digital way.
+          <a class="link-neuefische" href="https://www.neuefische.de/en"
+            >neuefische</a
+          >
+          coding bootcamp. What I like about coding is bringing ideas to life,
+          being creative and envolving constantly. I'm looking forward working
+          as a web developer and being able to connect the world in a digital
+          way.
         </p>
-      </section>
-      <section>
+
         <h3>My life before coding</h3>
         <p>
           After I completed my apprenticeship as a travel agent, I started to
@@ -50,22 +57,45 @@
           decided to start a new adventure: coding.
         </p>
       </section>
+
+      <section class="social-media">
+        <h2 class="socialmedia-header">Get to know me</h2>
+        <figure class="logo-figure">
+          <img class="logo" src="images/github-logo.png" alt="Github Logo" />
+          <figcaption>
+            <a
+              class="logo-link"
+              href="https://github.com/HannaSophia-92"
+              target="_blank"
+              >Github</a
+            >
+          </figcaption>
+        </figure>
+        <figure class="logo-figure">
+          <img class="logo" src="images/codepen-logo.jpeg" alt="Codepen Logo" />
+          <figcaption>
+            <a
+              class="logo-link"
+              href="https://codepen.io/your-work"
+              target="_blank"
+              >Codepen</a
+            >
+          </figcaption>
+        </figure>
+      </section>
+
       <section id="contact">
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <address>
           <p>Contact me, I'll be happy to get to know you</p>
-          <a href="mailto:hanna-schlenker@web.de">hanna-schlenker@web.de</a>
-          <a href="tel:+49123456789">Tel: +49123456789</a>
+          <a class="link-contact" href="mailto:hanna-schlenker@web.de"
+            >hanna-schlenker@web.de</a
+          >
+          <a class="link-contact" href="tel:+49123456789">Tel: +49123456789</a>
         </address>
       </section>
-      <figure>
-        <h3>Get to know me/Discover my work</h3>
-        <img src="images/github-logo.png" alt="Github Logo" />
-        <a href="https://github.com/HannaSophia-92" target="_blank">Github</a>
-        <img src="images/codepen-logo.jpeg" alt="Codepen Logo" />
-        <a href="https://codepen.io/your-work" target="_blank">Codepen</a>
-      </figure>
-      <footer>
+
+      <footer class="footer-section">
         <p>Written by Hanna Sophia Schlenker</p>
       </footer>
     </main>

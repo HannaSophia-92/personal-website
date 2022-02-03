@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #565a5b;
+}
+
+header {
+  padding: 15px;
+  margin: 0 0 5px 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #4a707a;
+}
+
+/*Bild mittig zentrieren*/
+figure {
+  text-align: center;
+  padding: 55px;
+}
+
+.header-section {
+  background-color: #b5c3cb;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button-link {
+  text-decoration: none;
+  color: #565a5b;
+  background-color: #c6d4db;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.img-section {
+  background-color: #c6d4db;
+  margin: auto;
+}
+
+.profil-img {
+  width: 250px;
+  border-radius: 5%;
+}
+
+#aboutme {
+  background-color: #c6d4db;
+  margin: 5px 0;
+  padding: 15px;
+}
+
+.link-neuefische {
+  text-decoration: none;
+  color: #4a707a;
+}
+
+.social-media {
+  background-color: #c6d4db;
+  margin: 5px 0;
+  height: 300px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmedia-header {
+  text-align: left;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #4a707a;
+}
+
+#contact {
+  background-color: #c6d4db;
+  margin: auto;
+  padding: 15px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.link-contact {
+  text-decoration: none;
+  color: #4a707a;
+  padding-right: 15px;
+}
+
+.footer-section {
+  background-color: #c6d4db;
+  margin: auto;
+  padding: 15px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-end;
+}
