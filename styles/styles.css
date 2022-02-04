@@ -12,8 +12,19 @@ body {
 }
 
 header {
+  padding: 25px;
+  margin: 5px 0;
+  height: auto;
+}
+
+.main-header {
   padding: 15px;
-  margin: 0 0 5px 0;
+  font-size: 2.5rem;
+}
+
+.my-name {
+  padding: 25px;
+  font-size: 2rem;
 }
 
 h2 {
@@ -25,10 +36,8 @@ a:hover {
   color: #4a707a;
 }
 
-/*Bild mittig zentrieren*/
-figure {
-  text-align: center;
-  padding: 55px;
+ul {
+  list-style: none;
 }
 
 .header-section {
@@ -40,7 +49,8 @@ figure {
   display: flex;
   justify-content: center;
   gap: 10px;
-  justify-content: center;
+  flex-wrap: wrap;
+  padding: 25px;
 }
 
 .button-link {
@@ -49,11 +59,14 @@ figure {
   background-color: #c6d4db;
   padding: 10px;
   border-radius: 15px;
+  width: 120px;
 }
 
 .img-section {
   background-color: #c6d4db;
-  margin: auto;
+  text-align: center;
+  padding: 55px;
+  margin: 5px 0 0 0;
 }
 
 .profil-img {
@@ -61,10 +74,26 @@ figure {
   border-radius: 5%;
 }
 
-#aboutme {
+.caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.aboutme {
   background-color: #c6d4db;
   margin: 5px 0;
-  padding: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-aboutme {
+  width: 50%;
+  text-align: justify;
 }
 
 .link-neuefische {
@@ -72,22 +101,49 @@ figure {
   color: #4a707a;
 }
 
-.social-media {
+.cv {
   background-color: #c6d4db;
-  margin: 5px 0;
-  height: 300px;
-  padding: 15px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.table-line {
+  padding: 5px 10px;
+}
+
+.table-header {
+  font-size: 1.6rem;
+  padding: 15px;
+}
+
+.figure-section {
+  background-color: #c6d4db;
+  padding: 15px;
 }
 
 .socialmedia-header {
-  text-align: left;
+  text-align: center;
+}
+
+.figure-area {
+  background-color: #c6d4db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+  flex-wrap: wrap;
 }
 
 .logo {
   width: 150px;
+}
+
+.caption {
+  text-align: center;
 }
 
 .logo-link {
@@ -95,11 +151,10 @@ figure {
   color: #4a707a;
 }
 
-#contact {
-  background-color: #c6d4db;
-  margin: auto;
+.contact {
+  background-color: #b5c3cb;
   padding: 15px;
-  margin: 5px 0;
+  margin: 5px 0 0;
   text-align: center;
 }
 
@@ -109,11 +164,19 @@ figure {
   padding-right: 15px;
 }
 
-.footer-section {
-  background-color: #c6d4db;
-  margin: auto;
+.get-in-touch {
+  text-transform: uppercase;
+  font-weight: bold;
   padding: 15px;
-  margin: 5px 0;
+}
+
+.address-section {
+  padding: 15px;
+}
+
+.footer-section {
+  background-color: #b5c3cb;
+  padding: 25px 25px 2px;
   display: flex;
   justify-content: flex-end;
 }

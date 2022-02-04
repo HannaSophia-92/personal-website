@@ -9,35 +9,35 @@
   </head>
   <body>
     <header class="header-section">
-      <h1>Nice to meet you</h1>
-      <h2>I'm Hanna</h2>
+      <h1 class="main-header">Nice to meet you</h1>
+      <h2 class="my-name">I'm Hanna</h2>
       <nav class="nav">
         <a class="button-link" href="#aboutme">About me</a>
+        <a class="button-link" href="#cv">CV</a>
+        <a class="button-link" href="#discover">Discover</a>
         <a class="button-link" href="#contact">Contact</a>
       </nav>
     </header>
+
     <main>
       <figure class="img-section">
-        <img
-          class="profil-img"
-          src="images/hannasophia.jpg"
-          alt="Picture of myself"
-        />
-        <figcaption>That's me</figcaption>
+        <img class="profil-img" src="images/hannasophia.jpg" alt="" />
+        <figcaption class="caption">That's me</figcaption>
       </figure>
 
-      <section id="aboutme">
+      <section class="aboutme" id="aboutme">
         <h2>About me</h2>
         <h3>My ways to relax</h3>
         <ul>
           <li>sports like swimming, mountain biking and running</li>
           <li>spending time with family and friends</li>
-          <li>cooking</li>
+          <li>cooking delicious food</li>
           <li>travelling</li>
+          <li>coding</li>
         </ul>
 
         <h3>What I'm doing at the moment</h3>
-        <p>
+        <p class="text-aboutme">
           Currently I'm learning to code at
           <a class="link-neuefische" href="https://www.neuefische.de/en"
             >neuefische</a
@@ -49,7 +49,7 @@
         </p>
 
         <h3>My life before coding</h3>
-        <p>
+        <p class="text-aboutme">
           After I completed my apprenticeship as a travel agent, I started to
           work as a flight attendant. The last years I travelled all over the
           world and got to know a lot of different countries, cultures and
@@ -58,11 +58,50 @@
         </p>
       </section>
 
-      <section class="social-media">
-        <h2 class="socialmedia-header">Get to know me</h2>
+      <section class="cv" id="cv">
+        <table>
+          <thead>
+            <tr>
+              <th class="table-header" colspan="2">Curriculum vitae</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-line">2012</td>
+              <td class="table-line">A levels, High School Diploma (US)</td>
+            </tr>
+            <tr>
+              <td class="table-line">2013</td>
+              <td class="table-line">Flight Attendant, TUIfly GmbH</td>
+            </tr>
+            <tr>
+              <td class="table-line">2014</td>
+              <td class="table-line">
+                Management Assistant in Hotel and Hospitality
+              </td>
+            </tr>
+            <tr>
+              <td class="table-line">2015</td>
+              <td class="table-line">
+                Travel Agent, Express Travel International
+              </td>
+            </tr>
+            <tr>
+              <td class="table-line">2017</td>
+              <td class="table-line">Flight Attendant, Lufthansa AG</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="figure-section" id="discover">
+        <h2 class="socialmedia-header">Discover</h2>
+      </section>
+
+      <div class="figure-area">
         <figure class="logo-figure">
           <img class="logo" src="images/github-logo.png" alt="Github Logo" />
-          <figcaption>
+          <figcaption class="caption">
             <a
               class="logo-link"
               href="https://github.com/HannaSophia-92"
@@ -73,7 +112,7 @@
         </figure>
         <figure class="logo-figure">
           <img class="logo" src="images/codepen-logo.jpeg" alt="Codepen Logo" />
-          <figcaption>
+          <figcaption class="caption">
             <a
               class="logo-link"
               href="https://codepen.io/your-work"
@@ -82,16 +121,17 @@
             >
           </figcaption>
         </figure>
-      </section>
+      </div>
 
-      <section id="contact">
+      <section class="contact" id="contact">
         <h2>Contact</h2>
-        <address>
-          <p>Contact me, I'll be happy to get to know you</p>
+        <p class="get-in-touch">Get in touch</p>
+        <p>I'll be happy to get to know you</p>
+        <address class="address-section">
           <a class="link-contact" href="mailto:hanna-schlenker@web.de"
             >hanna-schlenker@web.de</a
           >
-          <a class="link-contact" href="tel:+49123456789">Tel: +49123456789</a>
+          <a class="link-contact" href="tel:+49123456789">+49123456789</a>
         </address>
       </section>
 
