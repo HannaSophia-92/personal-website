@@ -14,7 +14,17 @@ body {
 header {
   padding: 25px;
   margin: 5px 0;
-  height: 250px;
+  height: auto;
+}
+
+.main-header {
+  padding: 15px;
+  font-size: 2.5rem;
+}
+
+.my-name {
+  padding: 25px;
+  font-size: 2rem;
 }
 
 h2 {
@@ -39,8 +49,8 @@ ul {
   display: flex;
   justify-content: center;
   gap: 10px;
-  justify-content: center;
-  padding: 15px;
+  flex-wrap: wrap;
+  padding: 25px;
 }
 
 .button-link {
@@ -72,7 +82,7 @@ ul {
 .aboutme {
   background-color: #c6d4db;
   margin: 5px 0;
-  padding: 15px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,6 +92,7 @@ ul {
 
 .text-aboutme {
   width: 50%;
+  text-align: justify;
 }
 
 .link-neuefische {
@@ -103,6 +114,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -119,10 +131,10 @@ ul {
 }
 
 .contact {
-  background-color: #c6d4db;
-  margin: auto;
+  background-color: #b5c3cb;
+
   padding: 15px;
-  margin: 5px 0;
+  margin: 5px 0 0;
   text-align: center;
 }
 
@@ -132,10 +144,20 @@ ul {
   padding-right: 15px;
 }
 
-.footer-section {
-  background-color: #c6d4db;
+.get-in-touch {
+  text-transform: uppercase;
+  font-weight: bold;
   padding: 15px;
-  margin: 5px 0;
+}
+
+.address-section {
+  padding: 15px;
+}
+
+.footer-section {
+  background-color: #b5c3cb;
+
+  padding: 25px 25px 2px;
   display: flex;
   justify-content: flex-end;
 }
