@@ -100,6 +100,25 @@ ul {
   color: #4a707a;
 }
 
+.cv {
+  background-color: #c6d4db;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.table-line {
+  padding: 5px 10px;
+}
+
+.table-header {
+  font-size: 1.6rem;
+  padding: 15px;
+}
+
 .figure-section {
   background-color: #c6d4db;
   padding: 15px;
@@ -115,6 +134,7 @@ ul {
   justify-content: center;
   align-items: center;
   padding-bottom: 25px;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -132,7 +152,6 @@ ul {
 
 .contact {
   background-color: #b5c3cb;
-
   padding: 15px;
   margin: 5px 0 0;
   text-align: center;
