@@ -59,6 +59,7 @@ ul {
   background-color: #c6d4db;
   padding: 10px;
   border-radius: 15px;
+  width: 120px;
 }
 
 .img-section {
@@ -175,7 +176,6 @@ ul {
 
 .footer-section {
   background-color: #b5c3cb;
-
   padding: 25px 25px 2px;
   display: flex;
   justify-content: flex-end;
