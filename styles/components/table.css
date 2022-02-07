@@ -1,0 +1,17 @@
+.table__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.table__data {
+  padding: 5px 10px;
+  line-height: 1.5rem;
+}
+
+.table__header {
+  font-size: 1.6rem;
+  padding: 15px;
+}

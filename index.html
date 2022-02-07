@@ -8,28 +8,26 @@
     <title>Hanna Sophia</title>
   </head>
   <body>
-    <header class="header-section">
-      <h1 class="main-header">Nice to meet you</h1>
-      <h2 class="my-name">I'm Hanna</h2>
-      <nav class="nav">
-        <a class="button-link" href="#aboutme">About me</a>
-        <a class="button-link" href="#cv">CV</a>
-        <a class="button-link" href="#discover">Discover</a>
-        <a class="button-link" href="#contact">Contact</a>
+    <header>
+      <h1 class="header__heading">Nice to meet you</h1>
+      <h2 class="header__name">I'm Hanna</h2>
+      <nav class="navigation">
+        <a class="navigation__button" href="#aboutme">About me</a>
+        <a class="navigation__button" href="#cv">CV</a>
+        <a class="navigation__button" href="#discover">Discover</a>
+        <a class="navigation__button" href="#contact">Contact</a>
       </nav>
     </header>
 
     <main>
-      <section class="img-section">
-        <figure class="figure">
-          <img class="profil-img" src="images/hannasophia.jpg" alt="" />
-          <figcaption class="caption">
-            29 years. Living in Frankfurt.
-          </figcaption>
-        </figure>
-      </section>
+      <figure class="figure__image my-10 mx-50">
+        <img class="image__profil" src="images/hannasophia.jpg" alt="" />
+        <figcaption class="image__caption">
+          29 years. Living in Frankfurt.
+        </figcaption>
+      </figure>
 
-      <section class="aboutme" id="aboutme">
+      <section class="biography__section my-10 mx-50" id="aboutme">
         <h2>About me</h2>
         <h3>My ways to relax</h3>
         <ul role="list">
@@ -41,9 +39,9 @@
         </ul>
 
         <h3>What I'm doing at the moment</h3>
-        <p class="text-aboutme">
+        <p class="biography__text">
           Currently I'm learning to code at
-          <a class="link-neuefische" href="https://www.neuefische.de/en"
+          <a class="biography__link" href="https://www.neuefische.de/en"
             >neuefische</a
           >
           coding bootcamp. What I like about coding is bringing ideas to life,
@@ -53,7 +51,7 @@
         </p>
 
         <h3>My life before coding</h3>
-        <p class="text-aboutme">
+        <p class="biography__text">
           After I completed my apprenticeship as a travel agent, I started to
           work as a flight attendant. The last years I travelled all over the
           world and got to know a lot of different countries, cultures and
@@ -62,86 +60,81 @@
         </p>
       </section>
 
-      <section class="cv" id="cv">
+      <section class="table__section my-10 mx-50" id="cv">
         <table>
           <thead>
             <tr>
-              <th class="table-header" colspan="2">Curriculum vitae</th>
+              <th class="table__header" colspan="2">Curriculum vitae</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="table-data">2012</td>
-              <td class="table-data">A levels, High School Diploma (US)</td>
+              <td class="table__data">2012</td>
+              <td class="table__data">A levels, High School Diploma (US)</td>
             </tr>
             <tr>
-              <td class="table-data">2013</td>
+              <td class="table__data">2013</td>
               <td class="table-data">Flight Attendant, TUIfly GmbH</td>
             </tr>
             <tr>
-              <td class="table-data">2014</td>
-              <td class="table-data">
+              <td class="table__data">2014</td>
+              <td class="table__data">
                 Management Assistant in Hotel and Hospitality
               </td>
             </tr>
             <tr>
-              <td class="table-data">2015</td>
-              <td class="table-data">
+              <td class="table__data">2015</td>
+              <td class="table__data">
                 Travel Agent, Express Travel International
               </td>
             </tr>
             <tr>
-              <td class="table-data">2017</td>
-              <td class="table-data">Flight Attendant, Lufthansa AG</td>
+              <td class="table__data">2017</td>
+              <td class="table__data">Flight Attendant, Lufthansa AG</td>
             </tr>
           </tbody>
         </table>
       </section>
 
-      <section class="figure-section" id="discover">
-        <h2 class="socialmedia-header">Discover</h2>
-
-        <div class="figure-area">
-          <figure class="logo-figure">
-            <img class="logo" src="images/github-logo.png" alt="Github Logo" />
-            <figcaption class="caption">
-              <a
-                class="logo-link"
-                href="https://github.com/HannaSophia-92"
-                target="_blank"
+      <section class="my-10 mx-50" id="discover">
+        <h2>Discover</h2>
+        <div class="logo__section">
+          <figure>
+            <img
+              class="logo__image"
+              src="images/github-logo.png"
+              alt="Github Logo"
+            />
+            <figcaption class="logo__caption">
+              <a href="https://github.com/HannaSophia-92" target="_blank"
                 >Github</a
               >
             </figcaption>
           </figure>
-          <figure class="logo-figure">
+          <figure>
             <img
-              class="logo"
+              class="logo__image"
               src="images/codepen-logo.jpeg"
               alt="Codepen Logo"
             />
-            <figcaption class="caption">
-              <a
-                class="logo-link"
-                href="https://codepen.io/your-work"
-                target="_blank"
-                >Codepen</a
-              >
+            <figcaption class="logo__caption">
+              <a href="https://codepen.io/your-work" target="_blank">Codepen</a>
             </figcaption>
           </figure>
         </div>
       </section>
 
-      <footer class="contact" id="contact">
+      <footer class="footer__contact" id="contact">
         <h2>Contact</h2>
-        <p class="get-in-touch">Get in touch</p>
+        <p class="footer__contactt--uppercase">Get in touch</p>
         <p>I'll be happy to get to know you</p>
-        <address class="address-section">
-          <a class="link-contact" href="mailto:hanna-schlenker@web.de"
+        <address class="address__section">
+          <a class="address__contact" href="mailto:hanna-schlenker@web.de"
             >hanna-schlenker@web.de</a
           >
-          <a class="link-contact" href="tel:+49123456789">+49123456789</a>
+          <a class="address__contact" href="tel:+49123456789">+49123456789</a>
         </address>
-        <p class="written-by">Written by Hanna Sophia Schlenker</p>
+        <p class="footer__name">Written by Hanna Sophia Schlenker</p>
       </footer>
     </main>
   </body>

@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 25px;
+  margin: 25px;
+}
+
+.navigation__button {
+  text-decoration: none;
+  color: #565a5b;
+  background-color: #c6d4db;
+  padding: 10px;
+  border-radius: 15px;
+  width: 120px;
+}
