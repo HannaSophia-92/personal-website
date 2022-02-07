@@ -69,19 +69,22 @@ ul {
 }
 
 .img-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   background-color: #c6d4db;
   padding: 55px;
   margin: 10px 50px;
   border-radius: 3px;
 }
 
+.figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .profil-img {
-  width: 270px;
+  width: 30%;
   border-radius: 5%;
 }
 
@@ -104,7 +107,7 @@ ul {
 }
 
 .text-aboutme {
-  width: 50%;
+  width: 90%;
   text-align: justify;
   line-height: 1.5rem;
 }
