@@ -1,0 +1,9 @@
+@import "./base.css";
+@import "./components/header.css";
+@import "./components/navigation.css";
+@import "./components/image.css";
+@import "./components/biography.css";
+@import "./components/table.css";
+@import "./components/social-media.css";
+@import "./components/footer.css";
+@import "./utility.css";

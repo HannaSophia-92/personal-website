@@ -1,0 +1,24 @@
+.footer__contact {
+  padding: 15px;
+  margin: 10px 50px 15px 50px;
+  text-align: center;
+}
+
+.address__contact {
+  padding-right: 15px;
+}
+
+.footer__contactt--uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.address__section {
+  padding: 15px;
+}
+
+.footer__name {
+  text-align: end;
+  margin: 25px 10px 0 0;
+}

@@ -1,0 +1,15 @@
+.logo__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.logo__image {
+  width: 150px;
+}
+
+.logo__caption {
+  text-align: center;
+}

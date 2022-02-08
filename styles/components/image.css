@@ -1,0 +1,19 @@
+.figure__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 55px 25px;
+}
+
+.image__profil {
+  width: 250px;
+  border-radius: 5%;
+}
+
+.image__caption {
+  font-size: 1.1rem;
+  font-size: 300;
+  padding: 25px 0;
+}
