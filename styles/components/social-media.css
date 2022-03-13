@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 15px;
   flex-wrap: wrap;
 }
 
 .logo__image {
-  width: 150px;
+  width: 90px;
 }
 
 .logo__caption {
   text-align: center;
+  padding-bottom: 15px;
 }

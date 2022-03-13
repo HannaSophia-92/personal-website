@@ -4,16 +4,16 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 55px 25px;
 }
 
 .image__profil {
-  width: 250px;
-  border-radius: 5%;
+  width: 220px;
+  border-radius: 16px;
+  margin: 20px;
 }
 
 .image__caption {
   font-size: 1.1rem;
   font-size: 300;
-  padding: 25px 0;
+  margin-bottom: 20px;
 }
